@@ -3,14 +3,14 @@
     "name": "db",
     "connector": "memory"
   },
-  "mysqlD": {
-    "host": "localhost",
-    "port": 3306,
-    "url": "mysql://root@localhost/people",
-    "database": "people",
+  "mongodb1": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "mongodb://127.0.0.1:27017/helloworld",
+    "database": "helloworld",
     "password": "",
-    "name": "mysqlD",
-    "user": "root",
-    "connector": "mysql"
+    "name": "mongodb1",
+    "user": "",
+    "connector": "mongodb"
   }
 }
